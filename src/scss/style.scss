@@ -1,0 +1,56 @@
+body {
+  background-color: #fefff9;
+  height: 2000px;
+}
+
+.top-bar-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.top-bar{
+  height: 70px;
+  width: 50%;
+  background-color: #051937;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+}
+
+header {
+  position: absolute;
+  left: 50%;
+  top: 61%;
+  -webkit-transform: translate(-50%, -60%);
+  transform: translate(-50%, -60%);
+}
+
+.iamorel {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 150px;
+  .parral {
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-size: cover;
+    display: table;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+  }
+}
+
+.side-logo {
+  display: none;
+}
+
+.logo-contain {
+  .side-logo {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: fixed;
+  }
+}
